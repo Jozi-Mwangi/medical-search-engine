@@ -146,20 +146,3 @@ except TimeoutException :
     print("Search Results not Found")
     driver.quit()
 
-
-# print(link.get_attribute("class"))
-
-# link.click()
-
-# driver.implicitly_wait(30)
-# disease_name = driver.find_element(By.TAG_NAME, "h1")
-# print(disease_name.text)
-# symptoms = driver.find_element(By.CSS_SELECTOR, ".section-summary li")
-# symptoms = [s.text for s in symptoms]
-# curing_methods = driver.find_element(By.CSS_SELECTOR, ".treatment-summary li")
-# curing_methods = [c.text for c in curing_methods]
-
-# results.append(result)
-# print(results)
-
-driver.quit()   
